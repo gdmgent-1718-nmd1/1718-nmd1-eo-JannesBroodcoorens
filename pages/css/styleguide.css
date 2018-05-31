@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+	body {
+		font-family: "Poppins", sans-serif;
+		font-weight: 300;
+		font-size: 1rem;
+		line-height: 1.65;
+		color: rgba(0, 0, 0, 0.5);
+		background-color: #003D57;
+		padding-top: 4rem;
+	}
+
+	p {
+		margin: 0 0 2rem 0;
+	}
+
+	h2 {
+		font-size: 1.75rem;
+		color: #1e1f23;
+		margin: 0 0 1rem 0;
+	}
+
+	#main > .inner {
+		margin: 0 auto;
+		width: 80rem;
+		max-width: 90%;
+		margin-bottom: 5rem;
+		background: rgba(255, 255, 255, 0.92);
+		border-radius: 4px;
+	}
+
+	.wrapper > header {
+		text-align: center;
+		background: #FFF;
+		padding: 2rem;
+		border-radius: 4px;
+	}
+
+	.wrapper > header h2 {
+		position: relative;
+		padding-bottom: .75rem;
+	}
+
+	.wrapper > header h2:after {
+		content: '';
+		position: absolute;
+		margin: auto;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 10%;
+		height: 1px;
+		background-color: rgba(0, 0, 0, 0.125);
+	}
+
+	.wrapper > header p {
+		text-transform: uppercase;
+		font-weight: 300;
+		font-size: .8rem;
+		letter-spacing: .25rem;
+		margin: 0;
+	}
+		
+	.content {
+		padding: 2rem;
+    }
+    
+    .bold {
+        font-weight: bold;
+	}
+	
+	h1 {
+		color: #1e1f23;
+		font-weight: 100;
+		font-size: 3rem;
+		text-align: center;
+		margin-bottom: 0px;
+	}
+
+	.subtitle {
+		text-align: center;
+	}
+
+	#image {
+		background-image: url("images/park.jpg");
+		width: 400px;
+		height: 400px;
+	}
